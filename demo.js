@@ -49,7 +49,7 @@ console.log($(this).attr('value'));
   $('#googleSheetsDataTable').html('<table cellpadding="0" cellspacing="0" border="0" class="display table" id="data-table-container" style="width:100%"></table>');
 var url = 'https://sheets.googleapis.com/v4/spreadsheets/1vYYkibhdLFzgaqPbjAQ5NY-cccVW-w_W3C9kK9f3gD4/values/A:G?key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg';
 if (window.location.href.indexOf("accountability-dashboard") > -1) {
-    url = 'https://sheets.googleapis.com/v4/spreadsheets/1A_o9Nk-COZl21FqTKgcwhS_EU1wo3reEMvufj3fovWc/values/A:G?key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg';
+    url = 'https://sheets.googleapis.com/v4/spreadsheets/1vYYkibhdLFzgaqPbjAQ5NY-cccVW-w_W3C9kK9f3gD4/values/A:G?key=AIzaSyCmqnBijhOsTPfft3WE6rYAfQ1tERXPoAg';
 } 
 //this function creates the datatable and selects configuration options
   var oTable = $('#data-table-container').DataTable({
