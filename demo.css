@@ -5,7 +5,7 @@ table.dataTable td.MEDIUM {
 }
 
 table.dataTable td.HIGH {
-  background-color:#3066BE;
+  background-color:red;
   color:white;
   text-align : center;
   font-weight: bold;
